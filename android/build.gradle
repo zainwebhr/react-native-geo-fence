@@ -2,6 +2,10 @@
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
 
     dependencies {
@@ -28,13 +32,17 @@ android {
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
 }
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.google.android.gms:play-services-base:10.2.6'
-    compile 'com.google.android.gms:play-services-location:10.2.6'
-    compile 'com.google.maps.android:android-maps-utils:0.3.4'
+    compile 'com.google.android.gms:play-services-base:17.2.1'
+    compile 'com.google.android.gms:play-services-location:17.0.0'
+    compile 'com.google.maps.android:android-maps-utils:0.5'
     compile group: 'com.github.javadev', name: 'underscore', version: '1.15'
 }
   
