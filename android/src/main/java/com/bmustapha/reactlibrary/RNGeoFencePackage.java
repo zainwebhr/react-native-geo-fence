@@ -1,4 +1,4 @@
-package com.bmustapha.RNGeofence;
+package com.bmustapha.reactlibrary;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

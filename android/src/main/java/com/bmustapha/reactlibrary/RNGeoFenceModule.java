@@ -1,4 +1,4 @@
-package com.bmustapha.RNGeofence;
+package com.bmustapha.reactlibrary;
 
 import android.Manifest;
 import android.app.Activity;
@@ -8,7 +8,6 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Looper;
-
 import android.util.Log;
 
 import androidx.annotation.NonNull;
